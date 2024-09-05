@@ -19,8 +19,7 @@ console.log(cansLeft < 5 ? "Time to restock!" : "We're stocked!"); // ternary st
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-console.log(`'}`);
-
+console.log(heartRate < 100 ? "Boost needed!" : "Energy levels are high!");
 
 // #### Challenge 4: Temperature Suitability
 // Monster Energy drinks are best served cold. Given the current temperature, use a ternary to print "Chilled to perfection!" 
