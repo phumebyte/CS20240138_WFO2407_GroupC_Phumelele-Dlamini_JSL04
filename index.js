@@ -1,5 +1,9 @@
 // # [JSL04] Submission: Monster Ternary Operator
 
+//When evaluating ternary operators, the truthy statement is written on the right, and the falsy statement on the left. The output depends on the evaluation of the conditional statement
+//The evaluations are booleans that are either truthy or falsy
+//Conditional statement is before the '?'
+
 // #### Challenge 1: Flavor Selection
 // Given a variable that holds a user's preferred type of Monster Energy drink, 
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
