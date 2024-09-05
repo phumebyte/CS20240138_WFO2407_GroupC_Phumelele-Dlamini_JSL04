@@ -12,8 +12,7 @@ console.log(userPreference ? userPreference : 'Regular');
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
-console.log(``);
-
+console.log(cansLeft < 5 ? "Time to restock!" : "We're stocked!"); // ternary statement evaluates a boolean value and compares 3 < 5?
 
 // #### Challenge 3: Workout Intensity
 // Based on the current heart rate, determine if the user should drink a Monster Energy drink to boost their workout. 
