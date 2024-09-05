@@ -26,8 +26,7 @@ console.log(heartRate < 100 ? "Boost needed!" : "Energy levels are high!");
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
-console.log(``);
-
+console.log(currentTemp <= 5 ? "Chilled to perfection!" : "Needs a cooler!");
 
 // #### Challenge 5: Late Night Coding Session
 // Determine if it's a good idea to have a Monster Energy drink based on the current hour.
